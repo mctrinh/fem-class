@@ -156,4 +156,9 @@ print(sigma)
 # 
 # Note: Should plot both FEM solution and exact solution
 #
+# Exact solution:
+#
+#            u = p*L*x*(1-x/L)/(2*E*A);       sigma = p*L*(1/2-x/L)/A
 # -------------------------------------------------------------------------
+
+# Add your code from there ...
