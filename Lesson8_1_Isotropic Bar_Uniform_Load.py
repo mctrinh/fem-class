@@ -50,9 +50,6 @@ Umat = np.zeros((nNode,1))              # Displacement vector
 Fmat = np.zeros((nNode,1))              # Force vector
 Kmat = np.zeros((nNode,nNode))          # Stiffness matrix
 
-# Applied load at node 2
-Fmat[1,0] = 10                          # Python index from 0
-
 for i in range(nElem):
     
     # Element degree of freedom
