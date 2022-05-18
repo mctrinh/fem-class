@@ -73,9 +73,6 @@ for i in range(nElem):
     # Derivative of shapeFunc w.r.t global/system coordinate
     Xderiv = natDeriv * invJacob
 
-    # B matrix (dN/dx)
-    B = Xderiv
-
     # Row index
     rIndex = np.zeros((nDof,nDof), dtype=int)
     rIndex[0:2,0] = eDof - 1 
@@ -87,7 +84,7 @@ for i in range(nElem):
     cIndex[1,0:2] = eDof - 1
 
     # The contribution of the element to the stiffness matrix
-    Kmat[rIndex,cIndex] = Kmat[rIndex,cIndex] + 2 * detJacob * EA * np.matmul(B, B.T)
+    Kmat[rIndex,cIndex] = Kmat[rIndex,cIndex] + 2 * detJacob * EA * np.matmul(Xderiv, Xderiv.T)
 
     # The force vector
     rInd = np.zeros((nDof,1), dtype=int)
