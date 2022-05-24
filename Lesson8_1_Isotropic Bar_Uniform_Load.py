@@ -4,7 +4,7 @@
 #
 #  ========================================================================
 # 
-#   Lesson 8.1: Isotropic Bar under Uniform Load
+#   Example 8.1: Isotropic Bar under Uniform Load
 #
 #   Last updated: 17/05/2022 by Minh-Chien Trinh (mctrinh@jbnu.ac.kr)
 #
@@ -144,7 +144,7 @@ print(sigma)
 #
 # For students:
 # 
-# 1. Plot the deform shape (x: length, y: displacement)
+# 1. Plot the deformed shape (x: length, y: displacement)
 # 
 # 2. Plot the stress distribution along the system (x: length, y: stress)
 # 
