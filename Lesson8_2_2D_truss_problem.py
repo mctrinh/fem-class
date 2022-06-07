@@ -112,7 +112,7 @@ Umat = np.zeros((gDof,1))              # Displacement vector
 Fmat = np.zeros((gDof,1))              # Force vector
 Kmat = np.zeros((gDof,gDof))           # Stiffness matrix
 
-# Applied load at node 2
+# Applied load at node 1, 2nd dof
 Fmat[1,0] = -10000
 
 # Computation of the system stiffness matrix
