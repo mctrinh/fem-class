@@ -6,7 +6,7 @@
 # 
 #   Example 9: Euler Bernoulli Beam
 #
-#   Last updated: 08/06/2022 by Minh-Chien Trinh (mctrinh@jbnu.ac.kr)
+#   Last updated: 07/06/2022 by Minh-Chien Trinh (mctrinh@jbnu.ac.kr)
 #
 #   Copyright 2022 Minh-Chien Trinh. All rights reserved.
 # 
@@ -140,8 +140,8 @@ print("-------------------------------------------------")
 #
 # For students:
 # 
-# 1. Plot the intact and deformed shapes of the system
+# 1. Modify the code for different number of elements
+# 2. Modify the code for different boundary conditions
+# 3. Plot the deformed shape of the beam
 # 
 # -------------------------------------------------------------------------
-
-# Add your code from there ...
