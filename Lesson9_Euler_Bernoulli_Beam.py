@@ -34,7 +34,7 @@ def StiffnessBernoulli(gDof, nElem, eNode, nNode, nCoord, EI, P):
         eLeng = nCoord[indice[1]-1] - nCoord[indice[0]-1]
         
         # Stiffness matrix of the element
-        k1 = EI / eLeng**3 * np.array([[12, 6*eLeng, -12, -6*eLeng],
+        k1 = EI / eLeng**3 * np.array([[12, 6*eLeng, -12, 6*eLeng],
                                         [6*eLeng, 4*eLeng**2, -6*eLeng, 2*eLeng**2], 
                                         [-12, -6*eLeng, 12, -6*eLeng],
                                         [6*eLeng, 2*eLeng**2, -6*eLeng, 4*eLeng**2]])
